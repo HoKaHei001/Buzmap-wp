@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Noto+Serif+JP:wght@200;300;400;500;600;700;900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #333333;
+}
+
+img {
+    vertical-align: bottom;
+    width: 100%;
+}
+
+
+.mv_wrapper {
+    background-image: url(../images/mv-bg.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.mv_container {
+    width: 40%;
+    margin-left: 80px;
+}
+
+.mv_main {}
+
+.mv_logo {
+    width: 10%;
+    margin-left: 20%;
+}
+
+.mv_title {
+    width: 50%;
+}
+
+.title {
+    width: 20%;
+    margin: 120px auto 80px auto;
+}
+
+.about_text {
+    width: 50%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 2.5rem;
+}
+
+.about_img {
+    width: 65%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.about_pv {
+    background-image: url(../images/pv-bg.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.pv_title {
+    width: 40%;
+    margin: auto;
+    padding-top: 80px;
+    margin-bottom: 40px;
+}
+
+.pv_video {
+    width: 60%;
+    margin: auto;
+}
+
+.pv_video video {
+    width: 100%;
+}
+
+.member_items {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+
+.member_item {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.member_item:nth-child(even) {
+    flex-direction: column-reverse;
+}
+
+.member_item h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #FFE600;
+}
+
+.member_line {
+    width: 80%;
+    margin: 70px auto;
+}
+
+.memory_container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.memory_item {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    background-color: #E6E6E6;
+}
+
+.memory_item img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.documents_items {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.documents_item {
+    text-align: center;
+    width: 550px;
+    margin: 0 40px 80px 40px;
+}
+
+.copyright {
+    text-align: center;
+    margin-bottom: 10px;
+}
